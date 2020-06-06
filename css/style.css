@@ -1,0 +1,85 @@
+
+
+
+/* ------ Parties génériques des pages ----- */
+
+body {
+    background: url('img/bg.jpg');
+    background-size: cover;
+}
+
+
+
+
+/* ------ Partie Header ------ */
+
+.bg-custom {
+    background-image: linear-gradient(15deg, #13547a 0%, #60ccbf 100%);
+}
+.categ_nav {
+    cursor: pointer;
+}
+.nav_element {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.text_style {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.style_two {
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-style: oblique;
+    background-image: url ('images/font_deco.png');
+}
+.main_title {
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    color: #13547a;
+    text-shadow: 0 1px 0 #ccc, 
+                0 2px 0 #c9c9c9,
+                0 3px 0 #bbb,
+                0 4px 0 #b9b9b9,
+                0 5px 0 #aaa,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 -5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15);
+}
+.opacitor {
+    opacity: 0.9;
+}
+.toggler-example {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* ------ Partie Footer ------ */
+
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: orange;
+    text-decoration: none;
+    transition: color 0.5s;
+}
