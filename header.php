@@ -27,6 +27,8 @@
         </div>
     </div>
 
+
+
     <nav class="navbar navbar-expand-sm navbar-dark bg-custom">
         <ul class="navbar-nav mr-auto text-center pl-5 d-none d-md-block">
             <!-- <li class="nav-item">
@@ -60,25 +62,28 @@
                     <div class="dropdown-toggle pt-1 font-weight-bold text-white pl-md-5 pr-md-3 nav_element categ_nav d-none d-sm-block" 
                     data-toggle="dropdown"><i class="fas fa-list pr-sm-1 pr-2"></i>Catégories</a>
                     </div>
-                    <div class="dropdown-menu" style="width: 600px;">
+                    <div class="dropdown-menu categ">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-4">
+                                <div class="col-sm-6 col-md-3">
                                     <a class="dropdown-item font-weight-bold" href="#">MULTIMEDIA</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" name="informatique" href="#">Informatique</a>
                                     <a class="dropdown-item" name="console" href="#">Consoles & Jeux vidéos</a>
                                     <a class="dropdown-item" name="image_son" href="#">Images & Son</a>
-                                    <a class="dropdown-item pb-3" name="telephonie" href="#">Téléphonie</a>
+                                    <a class="dropdown-item mb-3" name="telephonie" href="#">Téléphonie</a>
 
                                     <a class="dropdown-item font-weight-bold" href="#">VEHICULES</a>
                                     <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" name="camions" href="#">Camions</a>
                                     <a class="dropdown-item" name="voitures" href="#">Voitures</a>
+                                    <a class="dropdown-item" name="utilitaires" href="#">Utilitaires</a>
+                                    <a class="dropdown-item" name="nautisme" href="#">Nautisme</a>
+                                    <a class="dropdown-item" name="camions" href="#">Camions</a>
                                     <a class="dropdown-item" name="motos" href="#">Motos</a>
-                                    <a class="dropdown-item" name="velos" href="#">Vélos</a>
-                                    <a class="dropdown-item pb-3" name="camions" href="#">Camions</a>
+                                    <a class="dropdown-item mb-3" name="velos" href="#">Vélos</a>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-sm-6 col-md-3">
                                     <a class="dropdown-item font-weight-bold" href="#">LOISIRS</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" name="DVD" href="#">DVD - Films</a>
@@ -90,17 +95,25 @@
                                     <a class="dropdown-item" name="jeux_jouets" href="#">Jeux & Jouets</a>
                                     <a class="dropdown-item" name="dastronomie" href="#">Gastronomie</a>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-sm-6 col-md-3">
                                     <a class="dropdown-item font-weight-bold" href="#">MAISON</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" name="ameublement" href="#">Ameublement</a>
                                     <a class="dropdown-item" name="electromenager" href="#">Electroménager</a>
                                     <a class="dropdown-item" name="bricolage" href="#">Bricolage</a>
-                                    <a class="dropdown-item pb-3" name="jardinage" href="#">Jardinage</a>
-
+                                    <a class="dropdown-item mb-3" name="jardinage" href="#">Jardinage</a>
                                     <a class="dropdown-item font-weight-bold" href="#">AUTRES</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" name="divers" href="#">Divers</a>
+                                </div>
+                                <div class="col-sm-6 col-md-3">
+                                    <a class="dropdown-item font-weight-bold" href="#">MODE</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" name="vetements" href="#">Vêtements</a>
+                                    <a class="dropdown-item" name="chaussures" href="#">Chaussures</a>
+                                    <a class="dropdown-item" name="accessoires" href="#">Accessoires</a>
+                                    <a class="dropdown-item" name="montre_bijoux" href="#">Montres & Bijoux</a>
+                                    <a class="dropdown-item mb-3" name="vetement_bebe" href="#">Vêtements bébé</a>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +141,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link pt-2 font-weight-bold text-white pl-md-3 pr-md-3 nav_element" 
-                href="connection.php"><i class="far fa-user pr-xs-1 pr-2 pr-md-2"></i>Connexion</a>
+                href="connexion.php"><i class="far fa-user pr-xs-1 pr-2 pr-md-2"></i>Connexion</a>
             </li>
         </ul>   
     </div> 
